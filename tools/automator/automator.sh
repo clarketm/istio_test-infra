@@ -16,6 +16,7 @@
 # limitations under the License.
 
 set -euo pipefail
+shopt -s globstar nullglob dotglob extglob
 
 ROOT="$(cd -P "$(dirname -- "$0")" && pwd -P)"
 
