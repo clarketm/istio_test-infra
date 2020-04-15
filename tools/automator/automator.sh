@@ -200,7 +200,7 @@ export_globals() {
 create_pr() {
   pr-creator \
     --github-token-path="$token_path" \
-    --org="$org" \
+    --org="clarketm" \
     --repo="$repo" \
     --branch="$branch" \
     --title="$title" \
